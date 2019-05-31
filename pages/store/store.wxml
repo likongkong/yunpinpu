@@ -1,0 +1,67 @@
+  <view class="head">
+    <view class='shop'>
+      <text class='active'>家用电器</text>
+      <text>男裤子</text>
+      <text>帽子</text>
+      <text>数码家电</text>
+    </view>
+    <view class='moreShop'>
+      <text>更多</text>
+      <image src="../../image/down.png" mode="widthFix"></image>
+    </view>
+  </view>
+
+  <view class='content'>
+
+    <view class='shopItem'>
+      <view class='commodityPic'>
+        <image src='../../image/commodity.png' mode="widthFix"></image>
+      </view>
+      <text class='commodityName'>Blooper 布鲁普圆形旋手表手表手表</text>
+      <view class='commodityInfo'>
+        <text class='price'>￥ 599</text>
+        <text class='num'>已售125415</text>
+      </view>
+    </view>
+    <view class='shopItem'>
+      <view class='commodityPic'>
+        <image src='../../image/commodity.png' mode="widthFix"></image>
+      </view>
+      <text class='commodityName'>Blooper 布鲁普圆形旋手表手表手表</text>
+      <view class='commodityInfo'>
+        <text class='price'>￥ 599</text>
+        <text class='num'>已售125415</text>
+      </view>
+    </view>
+    <view class='shopItem'>
+      <view class='commodityPic'>
+        <image src='../../image/commodity.png' mode="widthFix"></image>
+      </view>
+      <text class='commodityName'>Blooper 布鲁普圆形旋手表手表手表</text>
+      <view class='commodityInfo'>
+        <text class='price'>￥ 599</text>
+        <text class='num'>已售125415</text>
+      </view>
+    </view>
+    <view class='shopItem'>
+      <view class='commodityPic'>
+        <image src='../../image/commodity.png' mode="widthFix"></image>
+      </view>
+      <text class='commodityName'>Blooper 布鲁普圆形旋手表手表手表</text>
+      <view class='commodityInfo'>
+        <text class='price'>￥ 599</text>
+        <text class='num'>已售125415</text>
+      </view>
+    </view>
+    <view class='shopItem'>
+      <view class='commodityPic'>
+        <image src='../../image/commodity.png' mode="widthFix"></image>
+      </view>
+      <text class='commodityName'>Blooper 布鲁普圆形旋手表手表手表</text>
+      <view class='commodityInfo'>
+        <text class='price'>￥ 599</text>
+        <text class='num'>已售125415</text>
+      </view>
+    </view>
+
+  </view>

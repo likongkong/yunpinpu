@@ -1,0 +1,178 @@
+page{
+  background: #f5f5f5;
+}
+.head{
+  width: 100%;
+  height: 468rpx;
+  padding-top: 42rpx;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  background: #e60026;
+}
+.head .bg{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0
+}
+.head .setting{
+  width: 42rpx;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  padding: 30rpx;
+}
+.userInfo{
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center
+  
+}
+.userInfo .portrait{
+  width: 150rpx;
+  height: auto;
+  border-radius: 100%;
+  border: 3rpx solid #fff;
+  position: relative;
+  z-index: 1;
+}
+.userInfo>view{
+  width: 540rpx;
+  position: relative;
+  z-index: 1;
+  padding-top: 36rpx;
+  padding-left: 32rpx;
+}
+.userInfo>view text{
+  font-size: 30rpx;
+  color: #ffffff;
+}
+.userInfo .lable{
+}
+.userInfo .lable text{
+  height: 35rpx;
+  display: inline-block;
+  padding: 0 26rpx;
+  background: #fff;
+  color: #ff4f50;
+  font-size: 24rpx;
+  border-radius: 8rpx;
+  margin-right: 28rpx;
+}
+.userInfo1{
+  display: flex;
+}
+.headInfo{
+  position: relative;
+  z-index: 1;
+  padding-top: 68rpx;
+  box-sizing: border-box;
+  display: flex;
+}
+.headInfo>view{
+  width: 33.3333%;
+}
+.headInfo>view image{
+  width: 45rpx;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+.headInfo>view text{
+  display: block;
+  font-size: 22rpx;
+  color: #fff;
+  text-align: center;
+  margin-top: 15rpx;
+}
+
+.orderBox{
+  width: 690rpx;
+  height: 300rpx;
+  background: #fff;
+  border-radius: 20rpx;
+  position: relative;
+  top: -77rpx;
+  left: 30rpx;
+  box-shadow: 0px 8rpx 12rpx 0px 
+		rgba(203, 203, 203, 0.1);
+}
+.orderBox .myOrder{
+  width: 100%;
+  height: 77rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end;
+  padding: 0 32rpx;
+  box-sizing: border-box;
+}
+.orderBox .myOrder view:first-child{
+  font-size: 30rpx;
+  color: #000;
+}
+.orderBox .myOrder .allOrder{
+  font-size: 24rpx;
+  color: #797979;
+  position: relative;
+}
+.orderBox .myOrder .allOrder image{
+  width: 20rpx;
+}
+.orderBox .orderInfo{
+  width: 100%;
+  height: 233rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.orderBox .orderInfo>view{
+  width: 25%;
+}
+.orderBox .orderInfo>view image{
+  width: 50rpx;
+  height: auto;
+  margin: 82rpx auto 0 auto;
+  display: block;
+}
+.orderBox .orderInfo>view text{
+  display: block;
+  color: #464646;
+  font-size: 22rpx;
+  text-align: center;
+  margin-top: 26rpx;
+}
+
+.module{
+  width: 100%;
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 22rpx 0 50rpx;
+  box-sizing: border-box;
+  margin-bottom: 30rpx;
+}
+.module view{
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+}
+.module view image{
+  width: 50rpx;
+  height: auto;
+}
+.module view text{
+  font-size: 28rpx;
+  color: #111111;
+  margin-left: 30rpx;
+}
+.module>image{
+  width: 26rpx;
+}
+.wholesale{
+  margin-top: -20rpx;
+  position: relative;
+}

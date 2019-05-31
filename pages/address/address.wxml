@@ -1,0 +1,32 @@
+<view class="head">
+  <text class='save'>保存</text>
+</view>
+
+<view class='content'>
+  <view class='content-box'>
+    <view class='content-m consignee'>
+      <view>收货人：</view>
+      <view><input type='text' value='小强'></input></view>
+      <view></view>
+    </view>
+    <view class='content-m'>
+      <view>联系方式：</view>
+      <view><input type='text' value='132****4561'></input></view>
+      <view></view>
+    </view>
+    <view class='content-m'>
+      <view>所在地区：</view>
+      <view><input type='text' value='陕西省西安市雁塔区'></input></view>
+      <view><image src="../../image/arrows-hui.png" mode="widthFix"></image></view>
+    </view>
+    <view class='content-m'>
+      <view>详细地址：</view>
+      <view><input type='text' value='唐延路XXXXXXXX'></input></view>
+      <view></view>
+    </view>
+  </view>
+</view>
+
+<button class='delete'>
+  删除
+</button>

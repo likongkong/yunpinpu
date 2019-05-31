@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "阿玛尼行李箱",
+  "backgroundColor": "#f5f5f5",
+  "usingComponents": {
+    "Cart": "/componet/cart/cart"
+  }
+}

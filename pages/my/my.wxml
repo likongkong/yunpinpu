@@ -1,0 +1,82 @@
+<view class='head'>
+  <image class='bg' src='../../image/bg.png' mode="widthFix"></image>
+  <image class='setting' src='../../image/setting.png' mode="widthFix"></image>
+  <view class='userInfo'>
+    <image class='portrait' src='../../image/portrait.png' mode="widthFix"></image>
+    <view>
+      <text class='name'>6578811768</text>
+      <view class='lable'>
+        <text>省级运营商</text>
+        <text>批发商</text>
+      </view>
+    </view>
+  </view>
+  <view class='headInfo'>
+    <view class='like'>
+      <image src='../../image/like.png' mode="widthFix"></image>
+      <text>我的收藏</text>
+    </view>
+    <view class='group'>
+      <image src='../../image/group.png' mode="widthFix"></image>
+      <text>我的团队</text>
+    </view>
+    <view class='wallet'>
+      <image src='../../image/wallet.png' mode="widthFix"></image>
+      <text>我的钱包</text>
+    </view>
+  </view>
+</view>
+
+<view class='orderBox'>
+  <view class='myOrder'>
+    <view>我的订单</view>
+    <view class='allOrder'>查看全部订单 <image src='../../image/arrows-hui.png' mode="widthFix"></image></view>
+  </view>
+  <view class='orderInfo'>
+    <view>
+      <image src='../../image/daishoukuan.png' mode="widthFix"></image>
+      <text>待付款</text>
+    </view>
+    <view>
+      <image src='../../image/daishouhuo.png' mode="widthFix"></image>
+      <text>待收货</text>
+    </view>
+    <view>
+      <image src='../../image/xiaopu.png' mode="widthFix"></image>
+      <text>我的小铺</text>
+    </view>
+    <view>
+      <image src='../../image/wodejishou.png' mode="widthFix"></image>
+      <text>我的寄售</text>
+    </view>
+  </view>
+</view>
+
+<view class='wholesale module'>
+  <view>
+    <image src='../../image/wholesale.png' mode="widthFix"></image>
+    <text>批发中心</text>
+  </view>
+  <image src='../../image/arrows-hui.png' mode="widthFix"></image>
+</view>
+<view class='address module'>
+  <view>
+    <image src='../../image/address.png' mode="widthFix"></image>
+    <text>地址管理</text>
+  </view>
+  <image src='../../image/arrows-hui.png' mode="widthFix"></image>
+</view>
+<view class='address module'>
+  <view>
+    <image src='../../image/service.png' mode="widthFix"></image>
+    <text>人工客服</text>
+  </view>
+  <image src='../../image/arrows-hui.png' mode="widthFix"></image>
+</view>
+<view class='feedback module'>
+  <view>
+    <image src='../../image/feedback.png' mode="widthFix"></image>
+    <text>意见反馈</text>
+  </view>
+  <image src='../../image/arrows-hui.png' mode="widthFix"></image>
+</view>

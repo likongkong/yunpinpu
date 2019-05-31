@@ -1,0 +1,44 @@
+<view class='share'>
+  <image src="../../image/share.png" mode="widthFix"></image>
+</view>
+
+<swiper class='banner' circular="true" indicator-dots="true" indicator-active-color="#e60026">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150" mode=''/>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class='shopInfo'>
+  <text class='name'>J-外交官Diplomat 万向轮拉杆箱 万向轮拉杆箱万向轮拉杆箱万向轮拉杆箱万向轮拉杆箱</text>
+  <view>
+    <text class='price'>￥1988</text>
+    <text class='num'>已售12415</text>
+  </view>
+</view>
+
+<view class='text'>
+  <view><text>宝贝详情</text></view>
+</view>
+
+<view class='shopDetail'>
+  <image src="http://m.qpic.cn/psb?/V14CSJrO3tyZxX/fIM0bmCMig9DcO7ngSrxkuYNsIEaPfML9hf6OdPH2qg!/b/dL4AAAAAAAAA&bo=7gLWAgAAAAADJzo!&rf=viewer_4" mode="widthFix"></image>
+  <image src="http://m.qpic.cn/psb?/V14CSJrO3tyZxX/FRJssrSjNYxZk4Ak2dxltvtVKKbsE0dZHfDkSutWoOk!/b/dLYAAAAAAAAA&bo=5wIRAgAAAAADJ*Q!&rf=viewer_4" mode="widthFix"></image>
+  <image src="http://m.qpic.cn/psb?/V14CSJrO3tyZxX/dyfd7LqpTw.XzJf*tqoovre.TAikvWe5l.VUjnPnBic!/b/dFQBAAAAAAAA&bo=5wJqAwAAAAADR.4!&rf=viewer_4" mode="widthFix"></image>
+</view>
+
+<view class='foter'>
+  <view class='like'>
+    <view class='shoplike' bindtap='like'> <image src="{{like?'../../image/shoplike1.png':'../../image/shoplike.png'}} " mode="widthFix"></image> </view>
+    <view> <image src="../../image/service1.png" mode="widthFix"></image> </view>
+  </view>
+  <view class='addCart' bindtap='showCart'>
+    加入购物车
+  </view>
+  <view class='toPay' bindtap='showCart'>
+    立即购买
+  </view>
+</view>
+
+<Cart wx:if="{{isCart}}" prop-data="{{data}}" bind:hideCart="hideCart"></Cart>

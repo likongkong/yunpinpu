@@ -1,0 +1,163 @@
+<view>
+  <view class='head'>
+      <view class='head-qrcode'><image src='../../image/qrcode.png' mode="widthFix"></image></view>
+      <view class='head-title'>云品铺</view>
+      <view class='head-search'><image src='../../image/search.png' mode="widthFix"></image></view>
+  </view>
+
+  <view class='banner'>
+    <swiper indicator-dots="true" indicator-active-color="#ffffff" circular="true">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" width="355" height="150" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class='message'> 
+    <image src='../../image/message.png' mode="widthFix"></image>
+    <view class='marquee'>
+      <view class="marquee_text" style="{{orientation}}:{{marqueeDistance}}px;font-size: {{size}}px;">
+        {{text}}
+      </view>
+    </view>
+  </view>
+
+  <view class='memu'>
+    <view class='memu-t'>
+      <view>
+        <text>特</text>
+        特色小铺
+      </view>
+      <view>
+        <text>限</text>
+        限时发货
+      </view>
+      <view>
+        <text>赔</text>
+        保证正品
+      </view>
+    </view>
+    <view class='memu-b'>
+      <view>
+        <image src="../../image/7.png" mode="widthFix"></image>
+        <text>居家生活</text>
+      </view>
+      <view>
+        <image src="../../image/7.png" mode="widthFix"></image>
+        <text>居家生活</text>
+      </view>
+      <view>
+        <image src="../../image/7.png" mode="widthFix"></image>
+        <text>居家生活</text>
+      </view>
+      <view>
+        <image src="../../image/7.png" mode="widthFix"></image>
+        <text>居家生活</text>
+      </view>
+    </view>
+  </view>
+
+  <view class='store'>
+    <view class='store-l'>
+      <text class='h1'>云品小铺</text>
+      <text class='h3'>为您筛选优质微店</text>
+      <button class='more'>
+        <text>更多小铺</text>
+        <image src='../../image/arrows.png'></image>
+      </button>
+      <image src='../../image/gouwu.png' mode="widthFix"></image>
+    </view>
+    <view class='store-r'>
+      <view class='recommend-s-t recommend-s'> 
+        <view class='describe'>
+          <text class='h2'>新款小风扇</text>
+          <text class='h4'>俯仰随意调节风扇</text>
+          <button class='more'>
+            <text>进入店铺</text>
+            <image src='../../image/arrows.png' mode="widthFix"></image>
+          </button>
+        </view>
+        <image src='../../image/fens.png' mode="widthFix"></image>
+      </view>
+      <view class='recommend-s-b recommend-s'>
+        <view class='describe'>
+          <text class='h2'>热门电器</text>
+          <text class='h4'>全家人的营养管家</text>
+          <button class='more'>
+            <text>进入店铺</text>
+            <image src='../../image/arrows.png' mode="widthFix"></image>
+          </button>
+        </view>
+        <image src='../../image/guo.png' mode="widthFix"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class='card'>
+    <view class='title'>
+      <text class='title-h1 blue'>云品商城</text>
+      <view>
+        查看更多
+        <image src='../../image/arrows-hui.png' mode="widthFix"></image>
+      </view>
+    </view>
+    <view class='commodity'>
+      <view>
+        <image src='../../image/commodity.png' mode="widthFix"></image>
+        <view>
+          <text class='name'>TCL智能冰箱冰箱</text>
+          <text class='price'>￥1898</text>
+        </view>
+      </view>
+      <view>
+        <image src='../../image/commodity.png' mode="widthFix"></image>
+        <view>
+          <text class='name'>英国Clous…</text>
+          <text class='price'>￥499</text>
+        </view>
+      </view>
+      <view>
+        <image src='../../image/commodity.png' mode="widthFix"></image>
+        <view>
+          <text class='name'>芷灵 TH-…</text>
+          <text class='price'>￥385</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='card'>
+    <view class='title'>
+      <text class='title-h1 yellow'>批发商城</text>
+      <view>
+        查看更多
+        <image src='../../image/arrows-hui.png' mode="widthFix"></image>
+      </view>
+    </view>
+    <view class='commodity'>
+      <view>
+        <image src='../../image/commodity.png' mode="widthFix"></image>
+        <view>
+          <text class='name'>TCL智能冰箱冰箱</text>
+          <text class='price'>￥1898</text>
+        </view>
+      </view>
+      <view>
+        <image src='../../image/commodity.png' mode="widthFix"></image>
+        <view>
+          <text class='name'>英国Clous…</text>
+          <text class='price'>￥499</text>
+        </view>
+      </view>
+      <view>
+        <image src='../../image/commodity.png' mode="widthFix"></image>
+        <view>
+          <text class='name'>芷灵 TH-…</text>
+          <text class='price'>￥385</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

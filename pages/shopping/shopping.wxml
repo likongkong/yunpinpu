@@ -1,0 +1,44 @@
+<view class="head">
+  <text wx:if="{{!isEdit}}" class='edit' bindtap='edit'>编辑</text>
+  <text wx:else class='finish' bindtap='edit'>完成</text>
+</view>
+<view class='content'>
+  <block wx:for="{{shoppingList}}" wx:for-index="ind">
+    <view class='card' data-price='{{item.price}}'>
+      <view class='checkBtn' data-index='{{ind}}' bindtap='selectList'>
+        <image wx:if="{{item.selected}}" src="../../image/selected.png" mode="widthFix"></image>
+        <image wx:else src="../../image/unselect.png" mode="widthFix"></image>
+      </view>
+      <view class='commodityPic'>
+        <image src='{{item.img}}' mode="widthFix"></image>
+      </view>
+      <view class='commodityInfo'>
+        <view>
+          <text class='h1'>{{item.name}}</text>
+          <Select prop-ind="{{ind}}" prop-array='{{item.selectArray}}' bind:getSelect='getSelect'></Select>
+          <view>
+            <text class='price'>￥{{item.price}}</text>
+            <InputNumber prop-ind="{{ind}}"  bind:getInputNumber='getInputNumber'></InputNumber>
+          </view>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>
+
+<view class='foter'>
+  <view class='checkall' bindtap='select'>
+    <image wx:if="{{CheckAll}}" src="../../image/selected.png" mode="widthFix"></image>
+    <image wx:else src="../../image/unselect.png" mode="widthFix"></image>
+    <text>全选</text>
+  </view>
+  <view class='delete' wx:if="{{isEdit}}">
+    <button bindtap='delete'>删除</button>
+  </view>
+  <view class='total' wx:else>
+    <text class='text'>合计:</text>
+    <text class='amount'>￥{{totalPrices}}</text>
+    <button wx:if="{{paylen != 0}}">结算 ({{paylen}})</button>
+    <button wx:else>结算</button>
+  </view>
+</view>

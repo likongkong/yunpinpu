@@ -1,0 +1,42 @@
+
+<!--屏幕背景变暗的背景  -->
+<view class="commodity_screen  {{status == true ? 'fadeIn' : 'fadeOut'}}" wx:if="{{status}}" catchtouchmove="true" bindtap="hideCart"></view>
+<!--弹出框  -->
+<view class="commodity_attr_box {{status == true ? 'fadeInUp' : 'fadeInDown'}}" catchtouchmove="true">
+  <view class='head'>
+    <view class='commodity-pic'>
+      <image src="{{data.shopPic}}" mode="widthFix"></image>
+    </view>
+    <view class='commodity-info'>
+      <view>
+        <text class='price'>￥{{data.price}}</text>
+        <text class='amount'>库存{{data.amount}}件</text>
+        <view class='type'>选择
+          <block wx:for="{{data.module}}">
+            <text>{{item.name}}</text>
+          </block>
+        </view>
+      </view>
+    </view>
+  </view>
+  <scroll-view class='scroll-view' scroll-y style="height: 600rpx;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scrol">
+    <block wx:for="{{data.module}}" wx:for-index="idx">
+      <view class='module'>
+        <text class='h1'>{{item.name}}</text>
+        <view class='label'>
+          <text class="{{items.id == selected?'active':''}}" data-id='{{items.id}}' data-parentIndex='{{idx}}' wx:for="{{item.data}}" wx:for-item="items" bindtap='getShopType'>{{items.name}}</text>
+        </view>
+      </view>
+    </block>
+
+    <view class='amount'>
+      <view class='title'>购买数量</view>
+      <view>
+        <InputNumber bind:getInputNumber='getInputNumber'></InputNumber>
+      </view>
+    </view>
+
+    <view class='occupied'></view>
+  </scroll-view>
+  <button class='confirm' bindtap="hideCart">确定</button>
+</view>

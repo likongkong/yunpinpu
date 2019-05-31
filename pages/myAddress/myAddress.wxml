@@ -1,0 +1,108 @@
+<view class='default'>
+  <view class='address-icon'>
+    <image src="../../image/xz-address.png" mode="widthFix"></image>
+  </view>
+  <view class='address-info'>
+    <view>
+      <view class='name'>
+        <text>收货人：小强</text>
+        <text>13259****42</text>
+      </view>
+      <view class='detail'>
+        <text>收货地址：陕西省西安市雁塔区吉祥村西安市雁塔区吉祥村</text>
+      </view>
+    </view>
+  </view>
+  <view class='address-edit'>
+    <image src="../../image/arrows-hui.png" mode="widthFix"></image>
+  </view>
+</view>
+
+<view class='content'>
+
+  <view class='address-list'>
+    <view class='address-icon'>
+      <image src="../../image/wxz-address.png" mode="widthFix"></image>
+    </view>
+    <view class='address-info'>
+      <view>
+        <view class='name'>
+          <text>大黄</text>
+          <text>13259000942</text>
+        </view>
+        <view class='detail'>
+          <text>收货地址：陕西省西安市雁塔区吉祥村西安市雁塔区吉祥村</text>
+        </view>
+      </view>
+    </view>
+    <view class='address-edit'>
+      <view></view>
+      编辑
+    </view>
+  </view>
+  <view class='address-list'>
+    <view class='address-icon'>
+      <image src="../../image/wxz-address.png" mode="widthFix"></image>
+    </view>
+    <view class='address-info'>
+      <view>
+        <view class='name'>
+          <text>大黄</text>
+          <text>13259000942</text>
+        </view>
+        <view class='detail'>
+          <text>收货地址：陕西省西安市雁塔区吉祥村西安市雁塔区吉祥村</text>
+        </view>
+      </view>
+    </view>
+    <view class='address-edit'>
+      <view></view>
+      编辑
+    </view>
+  </view>
+  <view class='address-list'>
+    <view class='address-icon'>
+      <image src="../../image/wxz-address.png" mode="widthFix"></image>
+    </view>
+    <view class='address-info'>
+      <view>
+        <view class='name'>
+          <text>大黄</text>
+          <text>13259000942</text>
+        </view>
+        <view class='detail'>
+          <text>收货地址：陕西省西安市雁塔区吉祥村西安市雁塔区吉祥村</text>
+        </view>
+      </view>
+    </view>
+    <view class='address-edit'>
+      <view></view>
+      编辑
+    </view>
+  </view>
+  <view class='address-list'>
+    <view class='address-icon'>
+      <image src="../../image/wxz-address.png" mode="widthFix"></image>
+    </view>
+    <view class='address-info'>
+      <view>
+        <view class='name'>
+          <text>大黄</text>
+          <text>13259000942</text>
+        </view>
+        <view class='detail'>
+          <text>收货地址：陕西省西安市雁塔区吉祥村西安市雁塔区吉祥村</text>
+        </view>
+      </view>
+    </view>
+    <view class='address-edit'>
+      <view></view>
+      编辑
+    </view>
+  </view>
+
+</view>
+
+<button class='addBtn'>
+新增收货地址
+</button>

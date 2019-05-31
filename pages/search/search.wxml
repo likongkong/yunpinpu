@@ -1,0 +1,79 @@
+<view class='search'>
+  <view class='search-input'>
+    <input type='text' confirm-type="search" placeholder="迷你台灯" placeholder-style="color:#c6c6c6" value='{{searchVal}}' auto-focus/>
+    <image src="../../image/sous.png" mode="widthFix"></image>
+  </view>
+  <text class='cancel' bindtap='cancel'>取消</text>
+</view>
+
+<view class='lebalmodule' wx:if="{{!commodityData}}">
+  <view class='hot'>
+    <view class='h1'>
+      热门搜索
+    </view>
+    <view class='label-box'>
+      <block wx:for="{{HotLabel}}">
+        <text data-lable='{{item}}' bindtap='bindLabel'>{{item}}</text>
+      </block>
+    </view>
+  </view>
+  <view wx:if="{{history}}" class='history'>
+    <view class='h1'>
+      历史搜索
+    </view>
+    <image class='delete' src='../../image/delete.png' mode="widthFix" bindtap='deleteHistoryLable'></image>
+    <view class='label-box'>
+      <block wx:for="{{HistoryLable}}">
+        <text data-lable='{{item}}' bindtap='bindLabel'>{{item}}</text>
+      </block>
+    </view>
+  </view>
+</view>
+
+<view class='commodity-box' wx:else>
+
+  <view>
+    <view class='commodityPic'>
+      <image src='../../image/commodity.png' mode="widthFix"></image>
+    </view>
+    <text class='commodityName'>Blooper 布鲁普圆形旋手表手表手表</text>
+    <view class='commodityInfo'>
+      <text class='price'>￥ 599</text>
+      <text class='num'>已售125415</text>
+    </view>
+  </view>
+  <view>
+    <view class='commodityPic'>
+      <image src='../../image/commodity.png' mode="widthFix"></image>
+    </view>
+    <text class='commodityName'>Blooper 布鲁普圆形旋手表手表手表</text>
+    <view class='commodityInfo'>
+      <text class='price'>￥ 599</text>
+      <text class='num'>已售125415</text>
+    </view>
+  </view>
+  <view>
+    <view class='commodityPic'>
+      <image src='../../image/commodity.png' mode="widthFix"></image>
+    </view>
+    <text class='commodityName'>Blooper 布鲁普圆形旋手表手表手表</text>
+    <view class='commodityInfo'>
+      <text class='price'>￥ 599</text>
+      <text class='num'>已售125415</text>
+    </view>
+  </view>
+  <view>
+    <view class='commodityPic'>
+      <image src='../../image/commodity.png' mode="widthFix"></image>
+    </view>
+    <text class='commodityName'>Blooper 布鲁普圆形旋手表手表手表</text>
+    <view class='commodityInfo'>
+      <text class='price'>￥ 599</text>
+      <text class='num'>已售125415</text>
+    </view>
+  </view>
+
+</view>
+
+
+<text class='nodata'>没有更多了...</text>

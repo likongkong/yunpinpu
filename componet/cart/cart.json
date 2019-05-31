@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "InputNumber": "/componet/inputnumber/inputnumber"
+  }
+}

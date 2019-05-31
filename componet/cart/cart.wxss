@@ -1,0 +1,150 @@
+.commodity_screen{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.commodity_attr_box{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 11;
+  background: #fff;
+  transform: translateY(100%);
+  transition: all .3s ease-out;
+}
+
+.head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 55rpx 0 40rpx 0;
+}
+.commodity-pic{
+  width: 262rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.commodity-pic image{
+  width: 115rpx;
+}
+.commodity-info{
+  display: flex;
+  align-items: center;
+  width: 542rpx;
+}
+.commodity-info view text{
+  display: block;
+}
+.commodity-info .price{
+  font-size: 36rpx;color: #e60026;
+  margin-bottom: 10rpx;
+}
+.commodity-info .amount{
+  font-size: 24rpx;color: #8c8c8c;
+  margin-bottom: 6rpx;
+  padding:  0;
+  
+}
+.commodity-info .type{
+  font-size: 24rpx;color: #212121;
+  display: flex
+}
+.commodity-info .type text{
+  margin-left: 12rpx;
+}
+
+.module{
+  padding: 30rpx 30rpx;
+  box-sizing: border-box;
+}
+.h1{
+  font-size: 30rpx;
+  color: #212121;
+}
+.module .label{
+  margin-top: 25rpx;
+}
+.module .label text{
+  display: inline-block;
+  height: 60rpx;
+  padding: 0 60rpx;
+  box-sizing: border-box;
+  background: #f5f5f5;
+  font-size: 24rpx;
+  color: #8c8c8c; 
+  line-height: 60rpx;
+  margin-bottom: 20rpx;
+  margin-right: 30rpx;
+  border-radius: 8rpx;
+  border: 2rpx solid #f5f5f5;
+}
+.module .label .active{
+  background: #fff;
+  border: 2rpx solid #e60026;
+}
+.amount{
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.amount .title{
+  font-size: 30rpx;
+  color: #212121;
+}
+.scroll-view{
+  /* position: relative; */
+}
+.occupied{
+  width: 100%;
+  height: 56rpx;
+}
+.confirm{
+  width: 100%;
+  height: 74rpx;
+  background-color: #e60026;
+	border-radius: 0;
+  font-size: 36rpx;
+  color: #ffffff;
+  line-height: 74rpx;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+.fadeIn{
+  animation: fadeIn 300ms;
+}
+.fadeOut{
+  animation: fadeOut 300ms;
+}
+.fadeInUp{
+  transform: translateY(0);
+}
+.fadeInDown{
+  transform: translateY(100%);
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

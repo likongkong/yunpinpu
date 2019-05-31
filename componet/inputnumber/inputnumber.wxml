@@ -1,0 +1,9 @@
+<!-- 主容器 -->  
+<view class="stepper">  
+    <!-- 减号 -->  
+    <text data-index='{{ind}}' class="{{minusStatus}}" bindtap="bindMinus">-</text>  
+    <!-- 数值 -->  
+    <input data-index='{{ind}}' type="number" bindchange="bindManual" value="{{num}}" maxlength='3'/>  
+    <!-- 加号 -->  
+    <text data-index='{{ind}}' class="normal" bindtap="bindPlus">+</text>  
+</view>  
