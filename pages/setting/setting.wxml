@@ -1,0 +1,20 @@
+<view class='head'>
+  <view class='box'>
+    <text>修改登录密码</text>
+    <image src="../../image/arrows-hui.png" mode="widthFix"></image>
+  </view>
+  <view class='box'>
+    <text>修改支付密码</text>
+    <image src="../../image/arrows-hui.png" mode="widthFix"></image>
+  </view>
+</view>
+
+<view class='box single'>
+  <text>关于我们</text>
+  <image src="../../image/arrows-hui.png" mode="widthFix"></image>
+</view>
+
+
+<button class='signOut'>
+  退出账户
+</button>

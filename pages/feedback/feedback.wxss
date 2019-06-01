@@ -1,0 +1,28 @@
+page{
+  background: #f5f5f5;
+}
+.textarea{
+  width: 690rpx;
+  height: 345rpx;
+  margin: 30rpx;
+  padding: 17rpx;
+  display: block;
+  box-sizing: border-box;
+  font-size: 28rpx;
+  color: #b2b2b2;
+  background: #fff;
+  border-radius: 8rpx;
+}
+.submit{
+  width: 600rpx;
+	height: 88rpx;
+	background-color: #e60026;
+	border-radius: 8px;
+  font-size: 36rpx;
+  color: #ffffff;
+  line-height: 88rpx;
+  margin-top: 60rpx;
+}
+.submit::after{
+  border: none
+}

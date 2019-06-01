@@ -1,0 +1,46 @@
+<view class='message'>
+  <image src="../../image/xiaoxi.png" mode="widthFix"></image>
+  <text>温馨提示：请确认开户行信息正确，以免影响提现</text>
+</view>
+
+<view class='content'>
+  <view class='inputM borderB'>
+    <text>身份证号：</text>
+    <input type='text' placeholder='请输入你的身份证号' placeholder-style="color:#c6c6c6"></input>
+  </view>
+  <view class='inputM borderB'>
+    <text>姓名：</text>
+    <input type='text' placeholder='请输入您的姓名' placeholder-style="color:#c6c6c6"></input>
+  </view> 
+  <view class='inputM borderB'>
+    <text>银行卡号：</text>
+    <input type='text' placeholder='请输入您的银行卡号' placeholder-style="color:#c6c6c6"></input>
+  </view>
+  <view class='inputPickerM borderB'>
+    <text>银行：</text>
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{objectArray}}" range-key='name'>
+      <view class="picker">
+        {{objectArray[index].name}}
+      </view>
+    </picker>
+    <image src="../../image/arrows-hui.png" mode="widthFix"></image>
+  </view>
+  <view class='inputM borderB'>
+    <text>预留手机号：</text>
+    <input type='text' placeholder='请输入银行预留手机号码' placeholder-style="color:#c6c6c6"></input>
+  </view>
+  <view class='inputM borderB'>
+    <text>开户行：</text>
+    <input type='text' placeholder='请输入开户行 例如：北京路. . .' placeholder-style="color:#c6c6c6"></input>
+  </view>
+  <view class='inputM borderB'>
+    <text>设置支付密码：</text>
+    <input type='text' placeholder='请输入6位数字' placeholder-style="color:#c6c6c6"></input>
+  </view>
+  <view class='inputM borderB'>
+    <text>确认支付密码：</text>
+    <input type='text' placeholder='请再一次输入支付密码' placeholder-style="color:#c6c6c6"></input>
+  </view>
+</view>
+
+<button class='save'>保存</button>

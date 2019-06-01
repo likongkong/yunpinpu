@@ -1,0 +1,2 @@
+  <textarea class="textarea" bindblur="bindTextAreaBlur" placeholder="请输入您的宝贵的意见，我们会尽快处理。" />
+  <button class='submit'>提交</button>

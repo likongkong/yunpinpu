@@ -1,2 +1,43 @@
+<view class="head">
+  <text class='myTicketNum'>8张</text>
+  <text class='h3'>仓储券余额</text>
+</view>
 
-<view>111222</view>
+<view class='myTicket'>
+  <text class='h2'>仓储券历史</text>
+  <view class='ticket'>
+    <view>
+      <view class='people'>
+        <text class='name'>获赠:123456789012</text>
+        <text class='time'>2018.12.01 12:23:12</text>
+      </view>
+      <view class='num'>
+        +2
+      </view>
+    </view>
+  </view>
+  <view class='ticket'>
+    <view>
+      <view class='people'>
+        <text class='name'>获赠:123456789012</text>
+        <text class='time'>2018.12.01 12:23:12</text>
+      </view>
+      <view class='num'>
+        +2
+      </view>
+    </view>
+  </view>
+  <view class='ticket'>
+    <view>
+      <view class='people'>
+        <text class='name'>获赠:123456789012</text>
+        <text class='time'>2018.12.01 12:23:12</text>
+      </view>
+      <view class='num'>
+        +2
+      </view>
+    </view>
+  </view>
+</view>
+
+<button class='sendTicket'>赠送仓储券</button>

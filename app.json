@@ -1,8 +1,14 @@
 {
   "pages": [
+    "pages/feedback/feedback",
+    "pages/myCollect/myCollect",
+    "pages/myOrder/myOrder",
+    "pages/shopping/shopping",
+    "pages/addBankCard/addBankCard",
+    "pages/setting/setting",
+    "pages/wholesaleCenter/wholesaleCenter",
     "pages/warehouse/warehouse",
     "pages/shopDetail/shopDetail",
-    "pages/shopping/shopping",
     "pages/index/index",
     "pages/store/store",
     "pages/myAddress/myAddress",

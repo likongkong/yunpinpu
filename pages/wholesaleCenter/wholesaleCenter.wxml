@@ -1,0 +1,11 @@
+<view class='wrap'>
+  <view class='card'>
+    <text>可用批发额度</text>
+    <text class='price'>￥5641.00</text>
+    <text>批发商资格有效还剩7天12时</text>
+  </view>
+  <view class='consignment'>
+    <view>寄售商品已卖出</view>
+    <view> <text>9</text> /12 <image src="../../image/arrows-hui.png" mode="widthFix"></image></view>
+  </view>
+</view>
