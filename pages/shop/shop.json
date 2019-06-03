@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "店铺",
+  "backgroundColor": "#f5f5f5",
+  "usingComponents": {
+    "Select": "/componet/select/select",
+    "InputNumber": "/componet/inputnumber/inputnumber"
+  }
+}

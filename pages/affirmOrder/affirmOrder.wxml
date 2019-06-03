@@ -1,0 +1,109 @@
+<view class='orderStatus'>
+  <view class='h1'>订单模式：</view>
+  <view class='type'> 
+    <text class='status'>寄售</text>
+    <image src="../../image/convert.png" mode="widthFix"></image>
+  </view>
+</view>
+
+<view class='default'>
+  <view class='address-icon'>
+    <image src="../../image/xz-address.png" mode="widthFix"></image>
+  </view>
+  <view class='address-info'>
+    <view>
+      <view class='name'>
+        <text>收货人：小强</text>
+        <text>13259****42</text>
+      </view>
+      <view class='detail'>
+        <text>收货地址：陕西省西安市雁塔区吉祥村西安市雁塔区吉祥村</text>
+      </view>
+    </view>
+  </view>
+  <view class='address-edit'>
+    <image src="../../image/arrows-hui.png" mode="widthFix"></image>
+  </view>
+</view>
+
+<view class='content'>
+  <view class='item'>
+    <view class='item-t'>
+      <view class='shopPic'>
+        <image src="../../image/commodity.png" mode="widthFix"></image>
+      </view>
+      <view class='shopInfo'>
+        <text class='title'>Blooper 布鲁普圆形旋钮形旋钮布鲁普圆形旋钮形旋钮</text>
+        <view class='shopType'>
+          <text>大号</text>
+          <text>L</text>
+          <image src="../../image/down.png" mode="widthFix"></image>
+        </view>
+        <view class='price'>￥1988
+          <text>x1</text>
+        </view>
+      </view>
+    </view>
+    <view class='item-b'>
+      <view>已卖出：<text>0</text>/1</view>
+    </view>
+  </view>
+
+  <view class='consumeTicket info'>
+    <text>配送方式</text>
+    <text><text style='color:#666;'>快递运费：</text>9元</text>
+  </view>
+  <view class='consumeTicket info'>
+    <text>消费仓储卷</text>
+    <text>3张</text>
+  </view>
+  <view class='consumeSum info'>
+    <text>消耗批发额度</text>
+    <text>￥1988</text>  
+  </view>
+  <view class='orderPrices info'>
+    <text>订单总价</text>
+    <text>￥1988</text>  
+  </view>
+  <view class='practicalPrices info'>
+    <text>实际总价</text>
+    <text>￥1988</text>  
+  </view>
+  <view class='orderInfo'>
+    <text>订单模式：寄售中</text>
+    <text>订单编号：121545451515451212</text>
+    <text>创建时间：2019-1-14   12:12:24</text>
+  </view>
+
+  <view class='occupied'></view>
+</view>
+
+
+<view class='foter'>
+  <view class='totalSum'>合计: <text>￥1988</text></view>
+  <!-- <button class='submit'>提交订单</button> -->
+  <!-- <view class='obligation'>
+    <button class='cancelOrder'>取消订单</button>
+    <button class='payment'>付款</button>
+  </view> -->
+  <button class='salesReturn'>退货</button>
+</view>
+
+<!-- 
+<view class='protocol ' catchtouchmove="true">
+  <view class='protocol-b'>
+    <view class='protocol-head'>
+      销售协议
+      <image class='close' src="../../image/close.png" mode="widthFix"></image>
+    </view>
+
+    <scroll-view scroll-y style="height: 600rpx;" class='protocol-content'>
+        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    </scroll-view>
+
+    <view class='protocol-foter'>
+      <text class='disagree'>不同意</text>
+      <text class='consent'>同意</text>
+    </view>
+  </view>
+</view> -->
