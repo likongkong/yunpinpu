@@ -1,0 +1,15 @@
+<image class="logo" src="../../image/logo.png" mode="widthFix"></image>
+<view class='content'>
+  <view class='content_t'>
+    <text class='text1'>邀请码</text>
+    <text class='text2'>g336EM</text>
+    <view class='btn'>
+      <text bindtap='copyBtn' data-code='g336EM'>复制邀请码</text>
+      <text bindtap='copyBtn' data-code='www.baidu.com'>复制邀请链接</text>
+    </view>
+    <text class='introduce'>一款让你获得财富的购物商城</text>
+  </view>
+  <view class='content_b'>
+    <image class="code" src="../../image/code.png" mode="widthFix"></image>
+  </view>
+</view>

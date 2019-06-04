@@ -1,0 +1,30 @@
+<view class='wrap'>
+  <view class="invitation_code">
+    <text>我的邀请码</text>
+    <view>
+      <text class='code'>3456hy5435tyrefrrf</text>
+      <image  bindtap='copyBtn' data-code='3456hy5435tyrefrrf' src="../../image/copy.png" mode="widthFix"></image>
+    </view>
+  </view>
+
+  <view class='h1'>
+    <text class='title'>我的团队</text>
+    <text class='num'>45人</text>
+  </view>
+
+  <view class='team'>
+    <block wx:for="{{teamArr}}" wx:for-index='ind'>
+      <view wx:if="{{ind == 0}}" class='team_item' >
+        <view bindtap='toggle' data-index='{{ind}}'>{{item.level1}} <image src="{{item.isShow?'../../image/team_show.png':'../../image/team_hide.png'}}" mode="widthFix"></image> <text>( 我 )</text></view>
+      </view>
+      <view wx:else class="team_item {{teamArr[0].isShow?'hide':''}}">
+        <view bindtap='toggle' data-index='{{ind}}'>{{item.level1}}<image wx:if="{{item.level2}}" src="{{item.isShow?'../../image/team_hide.png':'../../image/team_show.png'}}" mode="widthFix"></image></view>
+        <view wx:if="{{item.level2}}" class="{{item.isShow?'':'hide'}}">{{item.level2}}</view>
+      </view>
+    </block>
+  </view>
+</view>
+
+<view class='foter'>
+ <button class='applyBtn'>申请成为运营代理</button>
+</view>
