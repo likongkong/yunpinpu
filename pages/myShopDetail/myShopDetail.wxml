@@ -1,0 +1,22 @@
+<view class="head">
+  <view>
+    <image src="https://img30.360buyimg.com/n7/jfs/t16237/175/2687101284/486199/c304f77b/5aba070aN865e811f.jpg" mode="widthFix"></image>
+  </view>
+  <text>17607643333</text>
+</view>
+<view class='price'>
+  ￥759
+</view>
+<text class='shop_describe'>
+  商品描述T-佑品 YPC40Y35智能…T-佑品 YPC40Y35智能… T-佑品 YPC40Y35智能… T-佑品 YPC40Y35智能…
+</text>
+
+<view class='content'>
+  <image src="../../image/shop1.png" mode="widthFix"></image>
+  <image src="../../image/shop2.png" mode="widthFix"></image>
+  <image src="../../image/shop3.png" mode="widthFix"></image>
+</view>
+
+<view class='foter'>
+  在售/已售/审批中
+</view>

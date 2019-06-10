@@ -1,0 +1,54 @@
+<view class='wrap'>
+  <view class='card'>
+    <view class='shop_pic'>
+      <image src="https://img30.360buyimg.com/n7/jfs/t16237/175/2687101284/486199/c304f77b/5aba070aN865e811f.jpg" mode="widthFix"></image>
+    </view>
+    <view class='shop_info'>
+      <text class='title'>梳妆台ins网红led化妆镜带灯泡的镜</text>
+      <text class='price'>￥24551</text>
+      <view class='status'>
+        <text>待付款</text>
+      </view>
+    </view>
+  </view>
+
+  <view class='card'>
+    <view class='shop_pic'>
+      <image src="https://img30.360buyimg.com/n7/jfs/t16237/175/2687101284/486199/c304f77b/5aba070aN865e811f.jpg" mode="widthFix"></image>
+    </view>
+    <view class='shop_info'>
+      <text class='title'>梳妆台ins网红led化妆镜带灯泡的镜</text>
+      <text class='price'>￥24551</text>
+      <view class='status'>
+        <text>代发货</text>
+        <button>去发货</button>
+      </view>
+    </view>
+  </view>
+
+  <view class='card'>
+    <view class='shop_pic'>
+      <image src="https://img30.360buyimg.com/n7/jfs/t16237/175/2687101284/486199/c304f77b/5aba070aN865e811f.jpg" mode="widthFix"></image>
+    </view>
+    <view class='shop_info'>
+      <text class='title'>梳妆台ins网红led化妆镜带灯泡的镜</text>
+      <text class='price'>￥24551</text>
+      <view class='status'>
+        <text>待收货</text>
+      </view>
+    </view>
+  </view>
+
+  <view class='card'>
+    <view class='shop_pic'>
+      <image src="https://img30.360buyimg.com/n7/jfs/t16237/175/2687101284/486199/c304f77b/5aba070aN865e811f.jpg" mode="widthFix"></image>
+    </view>
+    <view class='shop_info'>
+      <text class='title'>梳妆台ins网红led化妆镜带灯泡的镜</text>
+      <text class='price'>￥24551</text>
+      <view class='status'>
+        <text>已收货</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,65 @@
+<view class='card'>
+  <view class='title'>
+    <text class='title-h1 blue'>云品商城</text>
+    <view>
+      查看更多
+      <image src='../../image/arrows-hui.png' mode="widthFix"></image>
+    </view>
+  </view>
+  <view class='commodity'>
+    <view>
+      <image src='../../image/commodity.png' mode="widthFix"></image>
+      <view>
+        <text class='name'>TCL智能冰箱冰箱</text>
+        <text class='price'>￥1898</text>
+      </view>
+    </view>
+    <view>
+      <image src='../../image/commodity.png' mode="widthFix"></image>
+      <view>
+        <text class='name'>英国Clous…</text>
+        <text class='price'>￥499</text>
+      </view>
+    </view>
+    <view>
+      <image src='../../image/commodity.png' mode="widthFix"></image>
+      <view>
+        <text class='name'>芷灵 TH-…</text>
+        <text class='price'>￥385</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class='card'>
+  <view class='title'>
+    <text class='title-h1 blue'>云品商城</text>
+    <view>
+      查看更多
+      <image src='../../image/arrows-hui.png' mode="widthFix"></image>
+    </view>
+  </view>
+  <view class='commodity'>
+    <view>
+      <image src='../../image/commodity.png' mode="widthFix"></image>
+      <view>
+        <text class='name'>TCL智能冰箱冰箱</text>
+        <text class='price'>￥1898</text>
+      </view>
+    </view>
+    <view>
+      <image src='../../image/commodity.png' mode="widthFix"></image>
+      <view>
+        <text class='name'>英国Clous…</text>
+        <text class='price'>￥499</text>
+      </view>
+    </view>
+    <view>
+      <image src='../../image/commodity.png' mode="widthFix"></image>
+      <view>
+        <text class='name'>芷灵 TH-…</text>
+        <text class='price'>￥385</text>
+      </view>
+    </view>
+  </view>
+</view>

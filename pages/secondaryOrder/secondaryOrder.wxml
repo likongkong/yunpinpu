@@ -1,0 +1,116 @@
+<view class='nav'>
+  <scroll-view scroll-with-animation scroll-x class="title-scroll-view" bindscroll="scrollMove" scroll-left='{{scrollLeft}}'>
+  <view wx:for="{{nav}}" wx:key="*this" 
+    class="title-item {{activeIdx === index ? 'active' : ''}}"
+    bindtap="choseNav" id="ele{{index}}" data-index='{{index}}'>{{item}}</view>
+  </scroll-view>
+</view>
+
+<view class='content'>
+
+  <view class='item'>
+    <view class='item-t'>
+      <view class='shopPic'>
+        <image src="../../image/commodity.png" mode="widthFix"></image>
+      </view>
+      <view class='shopInfo'>
+        <view class='lable'>
+          <text>集市订单</text>
+          <text>待付款</text>
+        </view>
+        <text class='title'>Blooper 布鲁普圆形旋钮形旋钮布鲁普圆形旋钮形旋钮</text>
+        <view class='shopType'>
+          <text>大号</text>
+          <text>L</text>
+          <!-- <image src="../../image/down.png" mode="widthFix"></image> -->
+        </view>
+        <view class='price'>￥1988
+          <text>x1</text>
+        </view>
+        <view class='totalPrice'>实际付款：<text>￥399</text></view>
+      </view>
+    </view>
+    <view class='item-b'>
+      <button class='toPay red'>付款</button>
+      <button class='cancelOrder gray'>取消订单</button>
+    </view>
+  </view>
+  <view class='item'>
+      <view class='item-t'>
+        <view class='shopPic'>
+          <image src="../../image/commodity.png" mode="widthFix"></image>
+        </view>
+        <view class='shopInfo'>
+          <view class='lable'>
+            <text>集市订单</text>
+            <text>待收货</text>
+          </view>
+          <text class='title'>Blooper 布鲁普圆形旋钮形旋钮布鲁普圆形旋钮形旋钮</text>
+          <view class='shopType'>
+            <text>大号</text>
+            <text>L</text>
+            <!-- <image src="../../image/down.png" mode="widthFix"></image> -->
+          </view>
+          <view class='price'>￥1988
+            <text>x1</text>
+          </view>
+          <view class='totalPrice'>实际付款：<text>￥399</text></view>
+        </view>
+      </view>
+      <view class='item-b'>
+        <button class='toPay red'>确认收货</button>
+        <button class='cancelOrder gray'>查看物流</button>
+      </view>
+    </view>
+    <view class='item'>
+      <view class='item-t'>
+        <view class='shopPic'>
+          <image src="../../image/commodity.png" mode="widthFix"></image>
+        </view>
+        <view class='shopInfo'>
+          <view class='lable'>
+            <text>集市订单</text>
+            <text>待收货</text>
+          </view>
+          <text class='title'>Blooper 布鲁普圆形旋钮形旋钮布鲁普圆形旋钮形旋钮</text>
+          <view class='shopType'>
+            <text>大号</text>
+            <text>L</text>
+            <!-- <image src="../../image/down.png" mode="widthFix"></image> -->
+          </view>
+          <view class='price'>￥1988
+            <text>x1</text>
+          </view>
+          <view class='totalPrice'>实际付款：<text>￥399</text></view>
+        </view>
+      </view>
+      <view class='item-b'>
+        <button class='toPay red'>确认收货</button>
+      </view>
+    </view>
+    <!-- <view class='item'>
+      <view class='item-t'>
+        <view class='shopPic'>
+          <image src="../../image/commodity.png" mode="widthFix"></image>
+        </view>
+        <view class='shopInfo'>
+          <view class='lable'>
+            <text>已完成</text>
+          </view>
+          <text class='title'>Blooper 布鲁普圆形旋钮形旋钮布鲁普圆形旋钮形旋钮</text>
+          <view class='shopType'>
+            <text>大号</text>
+            <text>L</text>
+            <image src="../../image/down.png" mode="widthFix"></image>
+          </view>
+          <view class='price'>￥1988
+            <text>x1</text>
+          </view>
+          <view class='totalPrice'>实际付款：<text>￥399</text></view>
+        </view>
+      </view>
+      <view class='item-b'>
+        <view>已卖出：<text>0</text>/1</view>
+      </view>
+    </view> -->
+</view>

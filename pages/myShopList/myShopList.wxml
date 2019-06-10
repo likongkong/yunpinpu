@@ -1,0 +1,64 @@
+<view class='nav'>
+  <scroll-view scroll-with-animation scroll-x class="title-scroll-view" bindscroll="scrollMove" scroll-left='{{scrollLeft}}'>
+  <view wx:for="{{nav}}" wx:key="*this" 
+    class="title-item {{activeIdx === index ? 'active' : ''}}"
+    bindtap="choseNav" id="ele{{index}}" data-index='{{index}}'>{{item}}</view>
+  </scroll-view>
+</view>
+
+<view class='wrap'>
+  <view class='card'>
+    <view class='shop_pic'>
+      <image src="https://img30.360buyimg.com/n7/jfs/t16237/175/2687101284/486199/c304f77b/5aba070aN865e811f.jpg" mode="widthFix"></image>
+    </view>
+    <view class='shop_info'>
+      <text class='title'>梳妆台ins网红led化妆镜带灯泡的镜</text>
+      <text class='price'>￥24551</text>
+      <text class='label yellow'>审批中</text>
+    </view>
+  </view>
+
+  <view class='card'>
+    <view class='shop_pic'>
+      <image src="https://img30.360buyimg.com/n7/jfs/t16237/175/2687101284/486199/c304f77b/5aba070aN865e811f.jpg" mode="widthFix"></image>
+    </view>
+    <view class='shop_info'>
+      <text class='title'>梳妆台ins网红led化妆镜带灯泡的镜</text>
+      <text class='price'>￥24551</text>
+      <text class='label gray'>下架</text>
+    </view>
+  </view>
+
+  <view class='card'>
+    <view class='shop_pic'>
+      <image src="https://img30.360buyimg.com/n7/jfs/t16237/175/2687101284/486199/c304f77b/5aba070aN865e811f.jpg" mode="widthFix"></image>
+    </view>
+    <view class='shop_info'>
+      <text class='title'>梳妆台ins网红led化妆镜带灯泡的镜</text>
+      <text class='price'>￥24551</text>
+      <text class='label green'>上架</text>
+    </view>
+  </view>
+
+  <view class='card'>
+    <view class='shop_pic'>
+      <image src="https://img30.360buyimg.com/n7/jfs/t16237/175/2687101284/486199/c304f77b/5aba070aN865e811f.jpg" mode="widthFix"></image>
+    </view>
+    <view class='shop_info'>
+      <text class='title'>梳妆台ins网红led化妆镜带灯泡的镜</text>
+      <text class='price'>￥24551</text>
+      <text class='label red'>在售</text>
+    </view>
+  </view>
+
+  <view class='card'>
+    <view class='shop_pic'>
+      <image src="https://img30.360buyimg.com/n7/jfs/t16237/175/2687101284/486199/c304f77b/5aba070aN865e811f.jpg" mode="widthFix"></image>
+    </view>
+    <view class='shop_info'>
+      <text class='title'>梳妆台ins网红led化妆镜带灯泡的镜</text>
+      <text class='price'>￥24551</text>
+      <text class='label gray'>已售</text>
+    </view>
+  </view>
+</view>

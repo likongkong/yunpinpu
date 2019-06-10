@@ -1,0 +1,133 @@
+<swiper  class="swiper-block"  previous-margin="90rpx" next-margin="90rpx" current="0" bindchange="swiperChange" circular="true">
+    <block wx:for="{{imgUrls}}" wx:index="{{index}}">
+        <swiper-item class="swiper-item">
+            <image mode="aspectFill" src="{{item}}" class="slide-image {{swiperIndex == index ? 'active' : ''}}"/>
+        </swiper-item>
+    </block>
+</swiper>
+
+<view class='function_module '>
+  <view>
+    <image src='../../image/buy.png' mode="widthFix"></image>
+    <text>我买到的</text>
+  </view>
+  <view>
+    <image src='../../image/published.png' mode="widthFix"></image>
+    <text>我发布的</text>
+  </view>
+  <view>
+    <image src='../../image/publish.png' mode="widthFix"></image>
+    <text>发布闲置</text>
+  </view>
+  <view>
+    <image src='../../image/sold.png' mode="widthFix"></image>
+    <text>我卖出的</text>
+  </view>
+</view>
+
+<view class='store'>
+  <view class='store-l'>
+    <text class='h1'>云品小铺</text>
+    <text class='h3'>为您筛选优质微店</text>
+    <button class='more'>
+      <text>更多小铺</text>
+      <image src='../../image/arrows.png'></image>
+    </button>
+    <image src='../../image/gouwu.png' mode="widthFix"></image>
+  </view>
+  <view class='store-r'>
+    <view class='recommend-s-t recommend-s'> 
+      <view class='describe'>
+        <text class='h2'>新款小风扇</text>
+        <text class='h4'>俯仰随意调节风扇</text>
+        <button class='more'>
+          <text>进入店铺</text>
+          <image src='../../image/arrows.png' mode="widthFix"></image>
+        </button>
+      </view>
+      <image src='../../image/fens.png' mode="widthFix"></image>
+    </view>
+    <view class='recommend-s-b recommend-s'>
+      <view class='describe'>
+        <text class='h2'>热门电器</text>
+        <text class='h4'>全家人的营养管家</text>
+        <button class='more'>
+          <text>进入店铺</text>
+          <image src='../../image/arrows.png' mode="widthFix"></image>
+        </button>
+      </view>
+      <image src='../../image/guo.png' mode="widthFix"></image>
+    </view>
+  </view>
+</view>
+
+<view class='commodity-box'>
+  <view class='title yellow'>
+    <text class='title-h1 yellow'>批发商城</text>
+    <view>
+      查看更多
+      <image src='../../image/arrows-hui.png' mode="widthFix"></image>
+    </view>
+  </view>
+  <view>
+    <view class='commodityPic'>
+      <image src='../../image/commodity.png' mode="widthFix"></image>
+    </view>
+    <text class='commodityName'>Blooper 布鲁普圆形旋手表手表手表</text>
+    <view class='commodityInfo'>
+      <text class='price'>￥ 599</text>
+      <text class='num'>已售125415</text>
+    </view>
+  </view>
+  <view>
+    <view class='commodityPic'>
+      <image src='../../image/commodity.png' mode="widthFix"></image>
+    </view>
+    <text class='commodityName'>Blooper 布鲁普圆形旋手表手表手表</text>
+    <view class='commodityInfo'>
+      <text class='price'>￥ 599</text>
+      <text class='num'>已售125415</text>
+    </view>
+  </view>
+  <view>
+    <view class='commodityPic'>
+      <image src='../../image/commodity.png' mode="widthFix"></image>
+    </view>
+    <text class='commodityName'>Blooper 布鲁普圆形旋手表手表手表</text>
+    <view class='commodityInfo'>
+      <text class='price'>￥ 599</text>
+      <text class='num'>已售125415</text>
+    </view>
+  </view>
+  <view>
+    <view class='commodityPic'>
+      <image src='../../image/commodity.png' mode="widthFix"></image>
+    </view>
+    <text class='commodityName'>Blooper 布鲁普圆形旋手表手表手表</text>
+    <view class='commodityInfo'>
+      <text class='price'>￥ 599</text>
+      <text class='num'>已售125415</text>
+    </view>
+  </view>
+  <view>
+    <view class='commodityPic'>
+      <image src='../../image/commodity.png' mode="widthFix"></image>
+    </view>
+    <text class='commodityName'>Blooper 布鲁普圆形旋手表手表手表</text>
+    <view class='commodityInfo'>
+      <text class='price'>￥ 599</text>
+      <text class='num'>已售125415</text>
+    </view>
+  </view>
+  <view>
+    <view class='commodityPic'>
+      <image src='../../image/commodity.png' mode="widthFix"></image>
+    </view>
+    <text class='commodityName'>Blooper 布鲁普圆形旋手表手表手表</text>
+    <view class='commodityInfo'>
+      <text class='price'>￥ 599</text>
+      <text class='num'>已售125415</text>
+    </view>
+  </view>
+
+</view>

@@ -1,24 +1,31 @@
 {
   "pages": [
-    "pages/myTeam/myTeam",
-    "pages/myCode/myCode",
+    "pages/mySoldShop/mySoldShop",
+    "pages/shipments/shipments",
+    "pages/secondaryOrder/secondaryOrder",
+    "pages/myShopList/myShopList",
+    "pages/myShopDetail/myShopDetail",
+    "pages/storeList/storeList",
     "pages/shop/shop",
-    "pages/warehouse/warehouse",
     "pages/affirmOrder/affirmOrder",
     "pages/addBankCard/addBankCard",
+    "pages/wholesaleCenter/wholesaleCenter",
+    "pages/warehouse/warehouse",
     "pages/shopping/shopping",
+    "pages/store/store",
+    "pages/mySecondary/mySecondary",
+    "pages/index/index",
+    "pages/myTeam/myTeam",
+    "pages/myCode/myCode",
     "pages/myOrder/myOrder",
     "pages/myAddress/myAddress",
     "pages/my/my",
-    "pages/index/index",
     "pages/feedback/feedback",
     "pages/myCollect/myCollect",
     "pages/setting/setting",
-    "pages/wholesaleCenter/wholesaleCenter",
-    "pages/shopDetail/shopDetail",
-    "pages/store/store",
-    "pages/address/address",
+    "pages/shopDetail/shopDetail",  
     "pages/search/search",
+    "pages/address/address",
     "pages/idlethings/idlethings"
   ],
   "window": {
@@ -32,18 +39,26 @@
     "selectedColor": "#e60026",
     "list": [
       {
+        "selectedIconPath":"image/index_s.png",
+        "iconPath":"image/index.png",
         "pagePath": "pages/index/index",
         "text": "首页"
       },
       {
+        "selectedIconPath": "image/gouwuche_s.png",
+        "iconPath": "image/gouwuche.png",
         "pagePath": "pages/shopping/shopping",
         "text": "购物车"
       },
       {
-        "pagePath": "pages/idlethings/idlethings",
+        "selectedIconPath": "image/xianyu_s.png",
+        "iconPath": "image/xianyu.png",
+        "pagePath": "pages/mySecondary/mySecondary",
         "text": "闲鱼"
       },
       {
+        "selectedIconPath": "image/my_s.png",
+        "iconPath": "image/my.png",
         "pagePath": "pages/my/my",
         "text": "我的"
       }

@@ -39,7 +39,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 7,
+			"current": 10,
 			"list": [
 				{
 					"id": -1,
@@ -95,6 +95,26 @@
 					"name": "我的仓储券",
 					"pathName": "pages/warehouse/warehouse",
 					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的团队",
+					"pathName": "pages/myTeam/myTeam",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的闲鱼",
+					"pathName": "pages/mySecondary/mySecondary",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "搜索",
+					"pathName": "pages/search/search",
 					"scene": null
 				}
 			]

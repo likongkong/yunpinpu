@@ -1,0 +1,28 @@
+<view class='card'>
+  <view class='shop_pic'>
+    <image src="https://img30.360buyimg.com/n7/jfs/t16237/175/2687101284/486199/c304f77b/5aba070aN865e811f.jpg" mode="widthFix"></image>
+  </view>
+  <view class='shop_info'>
+    <text class='title'>梳妆台ins网红led化妆镜带灯泡的镜</text>
+    <view class='shopType'>
+      <text>大号</text>
+      <text>L</text>
+      <!-- <image src="../../image/down.png" mode="widthFix"></image> -->
+    </view>
+    <text class='price'>￥24551</text>
+  </view>
+</view>
+<view class="shipments">
+  <text>发货地址</text>
+  <text>复制</text>
+</view>
+
+<text class='user_info'>张三    17607615624</text>
+<text class='user_info'>北京市东城区XX路XXX号XXXX仓库</text>
+
+<view class='expressage_info'>
+  <input type='text' placeholder='请输入快递公司' placeholder-style="color: #c4c4c4;"></input>
+  <input type='text' placeholder='请输入快递单号' placeholder-style="color: #c4c4c4;"></input>
+</view>
+
+<button class='submit'>提交</button>
